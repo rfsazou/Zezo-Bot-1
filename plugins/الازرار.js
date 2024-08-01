@@ -11,10 +11,10 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 
     // قائمة عناوين URL للصور
     const images = [
-        'https://telegra.ph/file/a79388f9fa9385f59d6a3.png',
-        'https://telegra.ph/file/9c5f3db7081f5fc0f8ad2.jpg',
-        'https://telegra.ph/file/187d2833c018e15d866c4.jpg',
-        'https://telegra.ph/file/f4f9d2420ac2b1072eb2e.jpg'// أضف عنوان URL ثالث هنا
+
+        'https://telegra.ph/file/ac04a53e91eeb841a6ef4.jpg',
+        'https://telegra.ph/file/ec6b8e0bcee7a203cadd3.jpg',
+        'https://telegra.ph/file/dc2e0602a95833d4adc7b.jpg'// أضف عنوان URL ثالث هنا
     ];
 
     // اختيار عشوائي لعنوان URL من القائمة
@@ -35,8 +35,8 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 ┏━━🤖 *『』ī معلومات البوت ī《* 🤖━━┓
 ┃ ✨  *اسـم البـوت: 𝒁𝒆𝒛𝒐 𝑩𝒐𝒕*
 ┃ 💻  *المـنصـة:* 𝑯𝑬𝑹𝑶𝑲𝑼💀 
-┃ 📍  *رقم المطور: 201508628077*
-┃ 📚  *اسم المطور: 『➳ᴹᴿ᭄𝒁𝒆𝒛𝒐➳ᴹᴿ᭄』* 
+┃ 📍  *رقم المطور: 972512997441*
+┃ 📚  *اسم المطور: 『محمد』* 
 ┗━━━━━━━━━━━━━┛
 
 ┏━━⏰ *『』التاريخ والوقت《* ⏰━┓
@@ -46,7 +46,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
 ⟣┈┈┈┈┈┈⟢┈┈┈⟣┈┈┈┈┈┈┈⟢`
                     },
                     footer: {
-                        text: 'ᴹᴿ᭄𝒁𝒆𝒛𝒐ᴹᴿ᭄'
+                        text: 'ᴹᴿMikeyᴹᴿ'
                     },
                     header: {
                         title: '',
@@ -58,7 +58,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                             {
                                 name: 'single_select',
                                 buttonParamsJson: JSON.stringify({
-                                    title: '『』CLICK《',
+                                    title: '『』اضغط《',
                                     sections: [
                                         {
                                             title: '『』MENUS《',
@@ -139,22 +139,22 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                             },
                             {
                                 name: "quick_reply",
-                                buttonParamsJson: "{\"display_text\":\"『』OWNER《\",\"id\":\".المطور\"}"
+                                buttonParamsJson: "{\"display_text\":\"『』المطور《\",\"id\":\".المطور\"}"
+                            },
+                            {
+                                name: "quick_reply",
+                                buttonParamsJson: "{\"display_text\":\"『』رابط جروب المطور《\",\"id\":\".جروبي\"}"
                             },
                             {
                                 name: "cta_url",
-                                buttonParamsJson: "{\"display_text\":\"『』GROUP《\",\"url\":\"https://chat.whatsapp.com/Gvj15Uocf6KDc2OUzgx06g\",\"merchant_url\":\"https://chat.whatsapp.com/Gvj15Uocf6KDc2OUzgx06g\"}"
-                            },
-                            {
-                                name: "cta_url",
-                                buttonParamsJson: "{\"display_text\":\"『』WEBSITE《\",\"url\":\"https://atom.bio/zyad_yasser\",\"merchant_url\":\"https://atom.bio/zyad_yasser\"}"
+                                buttonParamsJson: "{\"display_text\":\"『』موقع المطور《\",\"url\":\"https://www.atom.bio/maiky-bot////\",\"merchant_url\":\"https://www.atom.bio/maiky-bot////\"}"
                             },
                             {
                                 name: "cta_url",
                                 buttonParamsJson: JSON.stringify({
-                                    display_text: "『』CHANNEL《",
-                                    url: "https://whatsapp.com/channel/0029Vaflefp4Y9ljqmqllP3a",
-                                    merchant_url: "https://whatsapp.com/channel/0029Vaflefp4Y9ljqmqllP3a"
+                                    display_text: "『』القناة الخاصة بالبوت《",
+                                    url: "https://whatsapp.com/channel/0029Vafd5a23wtbEqjlnbw1l",
+                                    merchant_url: "https://whatsapp.com/channel/0029Vafd5a23wtbEqjlnbw1l"
                                 })
                             }
                         ]
