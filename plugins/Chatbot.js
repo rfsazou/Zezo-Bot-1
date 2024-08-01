@@ -115,8 +115,8 @@ handler.all = async function (m) {
     conn.reply(m.chat, `*الحمد لله و انت*`, m); // رد
   }
 
-  if (/^🐤$/i.test(m.text)) { // بدون بادئة
-    conn.reply(m.chat, `🐦`, m); // رد
+  if (/^المطور|.المطور$/i.test(m.text)) { // بدون بادئة
+    conn.reply(m.chat, `عايز اي من مطوري`, m); // رد
   }
 
   return !0;
