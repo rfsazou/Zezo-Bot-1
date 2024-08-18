@@ -7,14 +7,16 @@ import fetch from 'node-fetch';
 import axios from 'axios';
 import moment from 'moment-timezone';
 
-global.botnumber = "*『🔥┇𝕄𝔸𝕀𝕂𝕐 𝔹𝕆𝕋』*"
+global.botnumber = ""
 global.confirmCode = ""
 
-global.owner = [['972512997441', '𝕄𝔸𝕀𝕂𝕐', true], 
+global.owner = [
+['249111230420', '👑 zezo - Creador 👑', true]], 
+['201151094460']
 ];
 
-global.suittag = ['972512997441'];
-global.prems = ['972512997441','972512997441'];
+global.suittag = [''];
+global.prems = [''];
 
 global.packname = '☾︎ 𝕄𝔸𝕀𝕂𝕐 𝔹𝕆𝕋 ☽︎';
 global.author = '𝕄𝔸𝕀𝕂𝕐 𝔹𝕆𝕋';
