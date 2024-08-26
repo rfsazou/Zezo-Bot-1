@@ -11,10 +11,10 @@ global.botnumber = ""
 global.confirmCode = ""
 
 global.owner = [
-['249111230420', '👑 zezo - Creador 👑', true]], 
+['212635555723'], 
 ['201151094460']
-['249967185716']
 ];
+
 
 global.suittag = [''];
 global.prems = [''];
